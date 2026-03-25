@@ -1,0 +1,21 @@
+/* App.css is intentionally left nearly empty to favor Tailwind CSS and index.css globals */
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.active-nav-link {
+  color: #C5A059 !important;
+  position: relative;
+}
+
+.active-nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: #C5A059;
+}
